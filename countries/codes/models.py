@@ -7,4 +7,3 @@ class Country(models.Model):
 
     def __str__(self):
         return f'Code: {self.code} <br> Country: <b>{self.name}</b>'
-    
